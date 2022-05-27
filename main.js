@@ -66,7 +66,7 @@ function click1() {
 	} else if (botChoice == 2) {
 		console.log('Player won !');
 		console.log('');
-		wonText = 'Player Won ';
+		wonText = 'You Won ';
 		pScore();
 	} else if (botChoice == 1) {
 		console.log('Bot Won !');
@@ -231,3 +231,6 @@ function restart() {
 	titleText.innerText = 'Make Your Choice !!';
 	document.querySelector('#playAgain').style.display = 'none';
 }
+
+
+// even i don't know what i wrote 😂😂 i was kid when i wrote code !
